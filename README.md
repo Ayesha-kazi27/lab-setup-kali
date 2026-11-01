@@ -136,7 +136,7 @@ Checked the assigned IPv4 address and tested connectivity using the `ping` comma
 To verify connectivity from Kali Linux, open the terminal and run:
 
 ```bash
-ping -c 4 8.8.8.8
+ping 8.8.8.8
 ```
 
 This sends four ICMP echo requests to Google's public DNS server at `8.8.8.8`.
